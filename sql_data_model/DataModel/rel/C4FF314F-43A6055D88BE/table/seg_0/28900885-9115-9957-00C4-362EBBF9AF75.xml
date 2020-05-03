@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28900885-9115-9957-00C4-362EBBF9AF75" name="Human_ZipCode">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>60EB340F-6DB0-DDB4-9212-A44DE9197C28</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Human_human_id" id="92912CE3-EAAC-84A0-C8A5-65E9D7C0793B">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>95160B36-A353-05CD-0793-BB3E580F7524</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D85B877-29DA-ECA2-0303-BB8EA81E13B7" referredColumn="40F0734F-C0C1-E117-EB4F-446CF7699A0E"/>
+</associations>
+</Column>
+<Column name="ZipCode_zipcode" id="CB8E5A49-2BF6-D7DB-CB65-18F4D18B44D7">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>D6B67DD1-7684-0D3C-B4D9-4D2E57A3B884</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD747BC1-15A1-D2F9-8CF9-DF60E30AFAF8" referredColumn="80632FEF-E3B3-FB36-F74F-3155193932E8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1D88D34-ABA0-4FC6-DD4B-0AA4865C8506" name="Human_ZipCode_PK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>94E02E96-6F08-F4A5-F54A-B88CDC712C2C</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92912CE3-EAAC-84A0-C8A5-65E9D7C0793B"/>
+<colUsage columnID="CB8E5A49-2BF6-D7DB-CB65-18F4D18B44D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCA51DF3-9F1B-3A74-EA1A-99B576058893" name="Human_ZipCode_Human_FK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>C296EF96-F26E-6F5D-D55F-B9DFE9A69103</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92912CE3-EAAC-84A0-C8A5-65E9D7C0793B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="053A0479-2F72-B28F-E05A-898A9066C56C" name="Human_ZipCode_ZipCode_FK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>FDCE0D8F-DA8F-D9CF-C374-8491F3F6E888</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB8E5A49-2BF6-D7DB-CB65-18F4D18B44D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F819E616-A0E3-4149-ED24-470F67DAE540" name="ZipCode">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>C92D828A-779D-C2ED-CCAE-AA1BA63D43F4</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="zipcode" id="80632FEF-E3B3-FB36-F74F-3155193932E8">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>98D4E0DC-CBCD-98B3-A858-7EC12893F512</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StateInfo_state_id" id="0278AA57-03EF-C2A7-4A31-9EC7B9178E54">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>D88C24ED-14FE-C078-0587-8318A85E7D0B</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09F7F0B2-CF47-36B7-2138-A1A597E76946" referredColumn="E30FBBBC-AFA8-A165-58D4-0101FD54C23C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="073B05C8-A2D0-C697-DB96-DAE65F2B68AF" name="ZipCode_PK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>DC3EBF05-9561-CE29-81B8-699912A97F05</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80632FEF-E3B3-FB36-F74F-3155193932E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2982337E-F73A-1364-4DB4-9BF1BF786CD4" name="ZipCode_StateInfo_FK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>0BE2048A-CD2E-CB20-8004-CE7F0821D7F6</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0278AA57-03EF-C2A7-4A31-9EC7B9178E54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

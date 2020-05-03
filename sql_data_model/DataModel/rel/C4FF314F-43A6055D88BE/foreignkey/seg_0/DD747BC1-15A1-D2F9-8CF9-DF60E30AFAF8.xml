@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD747BC1-15A1-D2F9-8CF9-DF60E30AFAF8" containerWithKeyObject="28900885-9115-9957-00C4-362EBBF9AF75" localFKIndex="053A0479-2F72-B28F-E05A-898A9066C56C" name="Human_ZipCode_ZipCode_FK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>FDCE0D8F-DA8F-D9CF-C374-8491F3F6E888</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<referredTableLongName>ZipCode</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F819E616-A0E3-4149-ED24-470F67DAE540</referredTableID>
+<keyObject>073B05C8-A2D0-C697-DB96-DAE65F2B68AF</keyObject>
+<referredKeyID>073B05C8-A2D0-C697-DB96-DAE65F2B68AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>zipcode</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

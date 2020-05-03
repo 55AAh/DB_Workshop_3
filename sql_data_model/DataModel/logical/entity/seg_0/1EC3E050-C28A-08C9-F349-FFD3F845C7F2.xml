@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1EC3E050-C28A-08C9-F349-FFD3F845C7F2" name="EmplPos">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-04-28 10:32:10 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="position_id" id="B6F3BBB2-AAC0-AD03-41FE-D2050F53B64C">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-04-28 10:32:16 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="40F651EB-8495-16DC-6724-693C967302CC">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-04-28 10:32:24 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6783986D-7329-9D86-A4EC-353DF2DE3AAD" name="Position_PK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-04-28 10:33:17 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B6F3BBB2-AAC0-AD03-41FE-D2050F53B64C</newElementsIDs>
+<usedAttributes>
+<attributeRef>B6F3BBB2-AAC0-AD03-41FE-D2050F53B64C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

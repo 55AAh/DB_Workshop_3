@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Empl_EmplStatus" directorySegmentName="seg_0" id="5EE66BD8-A76F-EC11-D64F-9233282D47D5">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-02 17:30:56 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<sourcePk>5C423D80-56F9-5636-2F1B-86792E1223B5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C5B503B6-6937-53D6-690B-C483D3E38052</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>91C3A5B5-B18D-3186-E1BC-B4588EA00869</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

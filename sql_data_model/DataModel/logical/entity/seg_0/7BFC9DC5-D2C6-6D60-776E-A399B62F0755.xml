@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BFC9DC5-D2C6-6D60-776E-A399B62F0755" name="Empl_TermReason">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 10:21:53 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="human_id" id="F99A42CD-0B46-F82C-AA9D-466113202B13">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 10:27:04 UTC</createdTime>
+<generatorID>B79DDE9C-EE49-6177-118F-97B4BD826E77</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<referedAttribute>5400F80D-90E5-8B1A-F862-A90A535E46CD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="company_id" id="87323661-2B2B-085E-0ABE-39F9038C5021">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 10:27:04 UTC</createdTime>
+<generatorID>B79DDE9C-EE49-6177-118F-97B4BD826E77</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<referedAttribute>E42A4C78-A8F2-F5B6-AF15-1804145DC2AC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="department_id" id="FC5F50AC-5A23-BA26-66BB-4B46D5699D5D">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 10:27:04 UTC</createdTime>
+<generatorID>B79DDE9C-EE49-6177-118F-97B4BD826E77</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<referedAttribute>6E30932C-26CF-8D10-1BB0-1033EBEA25F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="epos_id" id="EE95C09D-FBA4-730A-7489-32FF55F6D676">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 10:27:04 UTC</createdTime>
+<generatorID>B79DDE9C-EE49-6177-118F-97B4BD826E77</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<referedAttribute>A090F9DD-B1C4-B6FC-8D19-0E27D5E67B58</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="treason_id" id="15C193DA-4E74-09D0-48A2-7C7B449292BB">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 10:27:14 UTC</createdTime>
+<generatorID>3890A9AA-14CF-7E37-63F7-8F9EA0926412</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<referedAttribute>756F9F23-E26C-E39E-906F-FDB1E7F839F6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D3762D6F-1FA9-B6D3-C984-8407D0FBFCC8" name="Empl_TermReason PK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 10:27:04 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F99A42CD-0B46-F82C-AA9D-466113202B13</attributeRef>
+<attributeRef>87323661-2B2B-085E-0ABE-39F9038C5021</attributeRef>
+<attributeRef>FC5F50AC-5A23-BA26-66BB-4B46D5699D5D</attributeRef>
+<attributeRef>EE95C09D-FBA4-730A-7489-32FF55F6D676</attributeRef>
+<attributeRef>15C193DA-4E74-09D0-48A2-7C7B449292BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

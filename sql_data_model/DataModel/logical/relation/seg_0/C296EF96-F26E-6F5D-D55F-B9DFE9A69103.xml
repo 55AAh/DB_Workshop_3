@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Human_ZipCode_Human_FK" directorySegmentName="seg_0" id="C296EF96-F26E-6F5D-D55F-B9DFE9A69103">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-02 14:12:06 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<sourcePk>ACF74FFE-6374-8587-C056-D9DF93A02211</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D5630003-5FB4-72DD-ED80-B847F82DD150</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60EB340F-6DB0-DDB4-9212-A44DE9197C28</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

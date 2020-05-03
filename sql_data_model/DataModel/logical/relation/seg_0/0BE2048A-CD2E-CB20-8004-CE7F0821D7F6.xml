@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ZipCode_StateInfo_FK" directorySegmentName="seg_0" id="0BE2048A-CD2E-CB20-8004-CE7F0821D7F6">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-04-28 10:22:32 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<sourcePk>EB381B2B-36E4-F10A-B533-4760CFAFAF60</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8972C83A-C152-C68F-AA70-90FD03A24970</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C92D828A-779D-C2ED-CCAE-AA1BA63D43F4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

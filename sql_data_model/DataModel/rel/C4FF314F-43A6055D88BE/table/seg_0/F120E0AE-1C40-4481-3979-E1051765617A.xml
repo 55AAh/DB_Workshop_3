@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F120E0AE-1C40-4481-3979-E1051765617A" name="Empl_TermReason">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>7BFC9DC5-D2C6-6D60-776E-A399B62F0755</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Empl_Human_human_id" id="7A357092-1C89-2AD6-A071-8AD6D5D431A3">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>F99A42CD-0B46-F82C-AA9D-466113202B13</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEAAC6F8-F91A-9ADC-7052-5C4507908691" referredColumn="2999269F-700E-8905-24E8-08C55307357E"/>
+</associations>
+</Column>
+<Column name="Empl_Company_company_id" id="D35C1F60-5A6F-35BB-E256-27A031F682F2">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>87323661-2B2B-085E-0ABE-39F9038C5021</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEAAC6F8-F91A-9ADC-7052-5C4507908691" referredColumn="069D085B-1E06-3104-4EA1-7784EEFA9B9A"/>
+</associations>
+</Column>
+<Column name="Empl_Department_department_id" id="7965BEB4-5FE3-D777-4983-9E75BF1D3D43">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>FC5F50AC-5A23-BA26-66BB-4B46D5699D5D</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEAAC6F8-F91A-9ADC-7052-5C4507908691" referredColumn="C33F84D3-E7A5-F980-5ABD-C00F0D866D16"/>
+</associations>
+</Column>
+<Column name="Empl_EmplPos_position_id" id="45704788-DC1D-809B-E302-B29F387D52BE">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>EE95C09D-FBA4-730A-7489-32FF55F6D676</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEAAC6F8-F91A-9ADC-7052-5C4507908691" referredColumn="D2ED8D09-4597-CDB9-A3E0-9F5CB79ED6EB"/>
+</associations>
+</Column>
+<Column name="TermReason_treason_id" id="D9FA342E-4387-6FBD-2DE3-7094CFDA93D6">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>15C193DA-4E74-09D0-48A2-7C7B449292BB</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FEE46ADE-16F5-E04D-3DE8-9956C619D8F1" referredColumn="EE1E04BB-CEEB-0F4A-D3CE-EDDEDE62BB5D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="647B8E0F-4229-2159-DC90-0A18B7BA477A" name="Empl_TermReason_PK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>D3762D6F-1FA9-B6D3-C984-8407D0FBFCC8</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A357092-1C89-2AD6-A071-8AD6D5D431A3"/>
+<colUsage columnID="D35C1F60-5A6F-35BB-E256-27A031F682F2"/>
+<colUsage columnID="7965BEB4-5FE3-D777-4983-9E75BF1D3D43"/>
+<colUsage columnID="45704788-DC1D-809B-E302-B29F387D52BE"/>
+<colUsage columnID="D9FA342E-4387-6FBD-2DE3-7094CFDA93D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="512192AF-44A3-2F90-EA86-4306D41A5626" name="Empl_TermReason_Empl_FK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>B79DDE9C-EE49-6177-118F-97B4BD826E77</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A357092-1C89-2AD6-A071-8AD6D5D431A3"/>
+<colUsage columnID="D35C1F60-5A6F-35BB-E256-27A031F682F2"/>
+<colUsage columnID="7965BEB4-5FE3-D777-4983-9E75BF1D3D43"/>
+<colUsage columnID="45704788-DC1D-809B-E302-B29F387D52BE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="26F7A766-A6E7-F125-044C-D81E5F804DEE" name="Empl_TermReason_TermReason_FK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-03 11:36:32 UTC</createdTime>
+<generatorID>3890A9AA-14CF-7E37-63F7-8F9EA0926412</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D9FA342E-4387-6FBD-2DE3-7094CFDA93D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

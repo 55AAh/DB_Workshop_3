@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Empl_PerfScore" directorySegmentName="seg_0" id="F9F3893A-9738-271A-0B74-AD91DC142571">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-02 17:32:38 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<sourcePk>66D78CC4-25FC-C28D-DDAE-6D30C54F3DA0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7030D0E7-6453-5AE1-9989-C921FF69A8BB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>91C3A5B5-B18D-3186-E1BC-B4588EA00869</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

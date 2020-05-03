@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Human_MrtStatus" directorySegmentName="seg_0" id="D494BA04-2788-3301-B5F7-1E3C7732460F">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-02 20:23:36 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<sourcePk>7D42B2D2-0E16-B3FF-0BC3-7E46453A3A7E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6219371E-EE78-5657-D4A5-DBC3171E0A44</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D5630003-5FB4-72DD-ED80-B847F82DD150</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

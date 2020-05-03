@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60EB340F-6DB0-DDB4-9212-A44DE9197C28" name="Human_ZipCode">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-02 12:07:34 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="human_id" id="95160B36-A353-05CD-0793-BB3E580F7524">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-02 14:12:06 UTC</createdTime>
+<generatorID>C296EF96-F26E-6F5D-D55F-B9DFE9A69103</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<referedAttribute>896E20E8-CED3-4432-F86B-DD46673D6FCA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ZipCode zipcode" id="D6B67DD1-7684-0D3C-B4D9-4D2E57A3B884">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-02 14:11:37 UTC</createdTime>
+<generatorID>FDCE0D8F-DA8F-D9CF-C374-8491F3F6E888</generatorID>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<referedAttribute>98D4E0DC-CBCD-98B3-A858-7EC12893F512</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="94E02E96-6F08-F4A5-F54A-B88CDC712C2C" name="Human_ZipCode_PK">
+<createdBy>Kostya</createdBy>
+<createdTime>2020-05-02 14:11:37 UTC</createdTime>
+<ownerDesignName>DataModel</ownerDesignName>
+<engineerTo>
+<item key="C4FF314F-986C-26E5-A1A2-43A6055D88BE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C296EF96-F26E-6F5D-D55F-B9DFE9A69103,FDCE0D8F-DA8F-D9CF-C374-8491F3F6E888</newElementsIDs>
+<usedAttributes>
+<attributeRef>95160B36-A353-05CD-0793-BB3E580F7524</attributeRef>
+<attributeRef>D6B67DD1-7684-0D3C-B4D9-4D2E57A3B884</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

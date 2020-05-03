@@ -1,4 +1,4 @@
-DROP TABLE Empl_Manager;
+/*DROP TABLE Empl_Manager;
 DROP TABLE Manager;
 DROP TABLE Empl_TermReason;
 DROP TABLE TermReason;
@@ -12,7 +12,7 @@ DROP TABLE Company;
 DROP TABLE Department;
 DROP TABLE EmplPos;
 DROP TABLE EmplStatus;
-DROP TABLE PerfScore;
+DROP TABLE PerfScore;*/
 
 CREATE TABLE company (
     company_id  NUMBER NOT NULL,
